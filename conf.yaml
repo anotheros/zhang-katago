@@ -1,0 +1,13 @@
+conf:
+ coreEngine: 1
+ maxEngine: 100
+ allowList: [1,2]
+ maxLifetime: 3600
+ waitTime: 180
+ configUrl: https://katago.gitee.io/config.json
+ onlineAnalysisComdLine: /content/katago gtp -config /content/katago-colab/config/gtp_colab.cfg -model /content/weight.bin.gz
+ offlineAnalysisComdLine: /content/katago analysis -config /content/katago-colab/config/gtp_colab.cfg -model /content/weight.bin.gz
+ genmoveComdLine: /content/katago gtp -config /content/katago-colab/config/gtp_colab.cfg -model /content/weight.bin.gz
+user:
+ userName: 
+ password: 
